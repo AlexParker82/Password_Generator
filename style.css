@@ -80,6 +80,14 @@ button#generate {
   margin-right: auto;
 }
 
+button#copy:hover {
+  cursor: pointer;
+ }
+
+button#generate:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 530px) {
   
   form#password-form {
