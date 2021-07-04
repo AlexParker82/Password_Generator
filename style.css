@@ -54,6 +54,10 @@ form#password-form div#password-display {
 
 button#copy {
   display: block;
+  padding: 10px;
+  color: white;
+  background-color: navy;
+  font-weight: bold;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,6 +71,10 @@ span#value{
 }
 
 button#generate {
+  padding: 10px;
+  color: white;
+  background-color: navy;
+  font-weight: bold;
   display: block;
   margin-left: auto;
   margin-right: auto;
