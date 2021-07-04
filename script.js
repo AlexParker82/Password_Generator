@@ -32,8 +32,7 @@ const lowercase_array = passwordArray(97, 122);
 const number_array = passwordArray(48, 57);
 const symbol_array = passwordArray(33, 47);
 
-formDom.addEventListener("submit", (e) => {
-  e.preventDefault();
+generatebtnDOM.addEventListener("click", (e) => {
   const passLength = lengthDOM.value;
   const includeUppercase = upperDOM.checked;
   const includeLowercase = lowerDOM.checked;
@@ -46,7 +45,7 @@ formDom.addEventListener("submit", (e) => {
     includeNumbers,
     includeSymbols
   );
-  displayDom.innerText = password;
+  displayDom.innerHTML = password;
   document.getElementById("password-display").style.height = "auto";
   document.getElementById("password-display").style.width = "auto";
 });
@@ -69,6 +68,8 @@ const generatePassword = (
   return passwordCharacters.join("")
 
 };
+
+
 
 
 
