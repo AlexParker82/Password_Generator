@@ -69,6 +69,18 @@ const generatePassword = (
 
 };
 
+copybtnDOM.addEventListener("click", (e) => {
+  const textarea = document.createElement("textarea");
+  const passwordToCopy = displayDom.innerHTML;
+  if (!passwordToCopy) return;
+  textarea.value = passwordToCopy;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+  alert("Password Copied to Clipboard");
+});
+
 
 
 
