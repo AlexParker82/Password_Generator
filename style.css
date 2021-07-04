@@ -79,3 +79,13 @@ button#generate {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (max-width: 530px) {
+  
+  form#password-form {
+    width: auto;
+    height:auto;
+  }
+
+
+}
