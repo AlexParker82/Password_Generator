@@ -1,9 +1,9 @@
-# **Password_Generator**
+# **Password Generator**
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/82096138/124386771-f270e200-dca9-11eb-803f-1095c208c60f.png)
 
 ## Table of Contents
-- [**Tech Blog**](#tech-blog)
+- [**Password Generator**](#password-generator)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
@@ -28,12 +28,6 @@ Go to deployed URL and follow instructions.
 
 ## Contributors
 Alex Parker
-
-### How you can contribute
-N/A
-
-## Tests
-N/A
 
 ## Questions
 
