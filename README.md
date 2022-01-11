@@ -15,10 +15,7 @@
   - [Questions](#questions)
 
 ## Description
-Full stack application for creating blog posts. Ability to create an account with your email, username, and password.  You can create, edit, and delete your posts and view other users posts.
-
-## Installation
-N/A
+A web application combining HTML, CSS and Javascript to randomly generate passwords.  Can set length, and choose any combination of letters, numbers, and symbols.
 
 ## Deployed URL
 https://alexparker82.github.io/Password_Generator/
